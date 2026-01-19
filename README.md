@@ -61,7 +61,7 @@ src/
 │   └── index.ts
 ├── App.vue
 
-´´´text 
+```text 
 
 
 ## ▶️ Como Executar o Projeto
