@@ -49,7 +49,7 @@ Independentemente do resultado, os dados da validação são **registrados em um
 
 ## 📦 Estrutura do Projeto
 
-```text
+
 src/
 ├── components/
 │   ├── AcionamentoButton.vue
@@ -61,7 +61,7 @@ src/
 │   └── index.ts
 ├── App.vue
 
-```text 
+
 
 
 ## ▶️ Como Executar o Projeto
