@@ -71,7 +71,7 @@ src/
 - npm ou yarn
 
 ### Instalação
-```bash
+
 npm install
 
 ### Execução em ambiente de desenvolvimento
