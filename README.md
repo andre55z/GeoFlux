@@ -60,6 +60,7 @@ src/
 ├── types/
 │   └── index.ts
 ├── App.vue
+´´´text 
 
 
 ## ▶️ Como Executar o Projeto
