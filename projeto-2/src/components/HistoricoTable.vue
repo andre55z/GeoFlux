@@ -61,7 +61,8 @@ defineExpose({ carregar });
         <tr>
           <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">ID</th>
           <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Data/Hora</th>
-          <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Status</th>
+          <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Status Histórico</th>
+          <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">Status Validação</th>
           <th class="px-4 py-3 text-left text-sm font-medium text-gray-700">ID_IBGE</th>
         </tr>
       </thead>
@@ -78,6 +79,16 @@ defineExpose({ carregar });
               ]"
             >
               {{ status  }}
+            </span>
+          </td>
+          <td class="px-4 py-3">
+            <span
+              :class="[
+                'px-2 py-1 text-xs rounded',
+                item.status === 200 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+              ]"
+            >
+              {{ item.mensagem == "0" ?  404 : item.status}}
             </span>
           </td>
           <td class="px-4 py-3 text-sm text-gray-600">{{ item.mensagem }}</td>

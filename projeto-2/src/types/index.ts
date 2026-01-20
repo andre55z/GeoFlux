@@ -6,6 +6,6 @@ export interface StatusResponse {
 export interface HistoricoItem {
   id: number;
   dataHora: string;
-  status: string;
-  mensagem: string;
+  status: number;
+  id_ibge: number;
 }
